@@ -2,19 +2,19 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 import { Badge } from "./Badge";
 
-vi.mock("@/assets/icons/check-icon.svg", () => ({
+vi.mock("../../../assets/icons/check-icon.svg", () => ({
   default: () => <svg data-testid="check-icon" />,
 }));
-vi.mock("@/assets/icons/info-icon.svg", () => ({
+vi.mock("../../../assets/icons/info-icon.svg", () => ({
   default: () => <svg data-testid="info-icon" />,
 }));
-vi.mock("@/assets/icons/warning-icon.svg", () => ({
+vi.mock("../../../assets/icons/warning-icon.svg", () => ({
   default: () => <svg data-testid="warning-icon" />,
 }));
-vi.mock("@/assets/icons/x-icon.svg", () => ({
+vi.mock("../../../assets/icons/x-icon.svg", () => ({
   default: () => <svg data-testid="x-icon" />,
 }));
-vi.mock("@/assets/icons/dismiss-circle-icon.svg", () => ({
+vi.mock("../../../assets/icons/dismiss-circle-icon.svg", () => ({
   default: () => <svg data-testid="dismiss-icon" />,
 }));
 

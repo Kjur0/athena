@@ -32,11 +32,6 @@ export default defineConfig({
       rollupTypes: false,
     }),
   ],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
   build: {
     copyPublicDir: false,
     cssCodeSplit: true,

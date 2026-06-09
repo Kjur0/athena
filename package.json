@@ -160,8 +160,5 @@
       "types": "./src/components/ui/Tooltip/Tooltip.types.tsx"
     },
     "./athena.css": "./src/index.css"
-  },
-  "imports":{
-    "@/*": "./src"
   }
 }

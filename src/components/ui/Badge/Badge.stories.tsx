@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
-import Crown from "@/assets/icons/crown.svg";
+import Crown from "../../../assets/icons/crown.svg";
 
 import { Badge } from "./Badge";
 

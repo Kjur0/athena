@@ -2,7 +2,7 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { Button } from "./Button";
 
-vi.mock("@/assets/icons/loading-spinner.svg", () => ({
+vi.mock("../../../assets/icons/loading-spinner.svg", () => ({
   default: () => <svg data-testid="loading-spinner" className="animate-spin" />,
 }));
 

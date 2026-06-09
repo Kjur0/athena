@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import Crown from "@/assets/icons/crown.svg";
+import Crown from "../../../assets/icons/crown.svg";
 import { InfoMessage } from "./InfoMessage";
 
 const meta = {
