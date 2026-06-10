@@ -78,87 +78,90 @@
     ]
   },
   "exports": {
-    ".": "./src/main.ts",
+    ".": {
+      "import": "./dist/athena.js",
+      "types": "./dist/main.d.ts"
+    },
     "./avatar": {
-      "import": "./src/components/ui/Avatar/Avatar.tsx",
-      "types": "./src/components/ui/Avatar/Avatar.types.tsx"
+      "import": "./dist/avatar.js",
+      "types": "./dist/components/ui/Avatar/Avatar.d.ts"
     },
     "./badge": {
-      "import": "./src/components/ui/Badge/Badge.tsx",
-      "types": "./src/components/ui/Badge/Badge.types.tsx"
+      "import": "./dist/badge.js",
+      "types": "./dist/components/ui/Badge/Badge.d.ts"
     },
     "./button": {
-      "import": "./src/components/ui/Button/Button.tsx",
-      "types": "./src/components/ui/Button/Button.types.tsx"
+      "import": "./dist/button.js",
+      "types": "./dist/components/ui/Button/Button.d.ts"
     },
     "./button-select": {
-      "import": "./src/components/ui/ButtonSelect/ButtonSelect.tsx",
-      "types": "./src/components/ui/ButtonSelect/ButtonSelect.types.tsx"
+      "import": "./dist/button-select.js",
+      "types": "./dist/components/ui/ButtonSelect/ButtonSelect.d.ts"
     },
     "./checkbox": {
-      "import": "./src/components/ui/Checkbox/Checkbox.tsx",
-      "types": "./src/components/ui/Checkbox/Checkbox.types.tsx"
+      "import": "./dist/checkbox.js",
+      "types": "./dist/components/ui/Checkbox/Checkbox.d.ts"
     },
     "./info-message": {
-      "import": "./src/components/ui/InfoMessage/InfoMessage.tsx",
-      "types": "./src/components/ui/InfoMessage/InfoMessage.types.tsx"
+      "import": "./dist/info-message.js",
+      "types": "./dist/components/ui/InfoMessage/InfoMessage.d.ts"
     },
     "./input": {
-      "import": "./src/components/ui/Input/Input.tsx",
-      "types": "./src/components/ui/Input/Input.types.tsx"
+      "import": "./dist/input.js",
+      "types": "./dist/components/ui/Input/Input.d.ts"
     },
     "./modal": {
-      "import": "./src/components/ui/Modal/Modal.tsx",
-      "types": "./src/components/ui/Modal/Modal.types.tsx"
+      "import": "./dist/modal.js",
+      "types": "./dist/components/ui/Modal/Modal.d.ts"
     },
     "./pagination": {
-      "import": "./src/components/ui/Pagination/Pagination.tsx",
-      "types": "./src/components/ui/Pagination/Pagination.types.tsx"
+      "import": "./dist/pagination.js",
+      "types": "./dist/components/ui/Pagination/Pagination.d.ts"
     },
     "./progress-bar": {
-      "import": "./src/components/ui/ProgressBar/ProgressBar.tsx",
-      "types": "./src/components/ui/ProgressBar/ProgressBar.types.tsx"
+      "import": "./dist/progress-bar.js",
+      "types": "./dist/components/ui/ProgressBar/ProgressBar.d.ts"
     },
     "./radio-group": {
-      "import": "./src/components/ui/RadioGroup/RadioGroup.tsx",
-      "types": "./src/components/ui/RadioGroup/RadioGroup.types.tsx"
+      "import": "./dist/radio-group.js",
+      "types": "./dist/components/ui/RadioGroup/RadioGroup.d.ts"
     },
     "./radio-group-item": {
-      "import": "./src/components/ui/RadioGroup/RadioGroupItem/RadioGroupItem.tsx",
-      "types": "./src/components/ui/RadioGroup/RadioGroupItem/RadioGroupItem.types.tsx"
+      "import": "./dist/radio-group-item.js",
+      "types": "./dist/components/ui/RadioGroup/RadioGroupItem/RadioGroupItem.d.ts"
     },
     "./section": {
-      "import": "./src/components/ui/Section/Section.tsx",
-      "types": "./src/components/ui/Section/Section.types.tsx"
+      "import": "./dist/section.js",
+      "types": "./dist/components/ui/Section/Section.d.ts"
     },
     "./action-list": {
-      "import": "./src/components/ui/Select/ActionList/ActionList.tsx",
-      "types": "./src/components/ui/Select/ActionList/ActionList.types.tsx"
+      "import": "./dist/action-list.js",
+      "types": "./dist/components/ui/Select/ActionList/ActionList.d.ts"
     },
     "./select": {
-      "import": "./src/components/ui/Select/Select.tsx",
-      "types": "./src/components/ui/Select/Select.types.tsx"
+      "import": "./dist/select.js",
+      "types": "./dist/components/ui/Select/Select.d.ts"
     },
     "./switch": {
-      "import": "./src/components/ui/Switch/Switch.tsx",
-      "types": "./src/components/ui/Switch/Switch.types.tsx"
+      "import": "./dist/switch.js",
+      "types": "./dist/components/ui/Switch/Switch.d.ts"
     },
     "./table": {
-      "import": "./src/components/ui/Table/Table.tsx",
-      "types": "./src/components/ui/Table/Table.types.tsx"
+      "import": "./dist/table.js",
+      "types": "./dist/components/ui/Table/Table.d.ts"
     },
     "./tabs": {
-      "import": "./src/components/ui/Tabs/Tabs.tsx",
-      "types": "./src/components/ui/Tabs/Tabs.types.tsx"
+      "import": "./dist/tabs.js",
+      "types": "./dist/components/ui/Tabs/Tabs.d.ts"
     },
     "./textarea": {
-      "import": "./src/components/ui/TextArea/TextArea.tsx",
-      "types": "./src/components/ui/TextArea/TextArea.types.tsx"
+      "import": "./dist/textarea.js",
+      "types": "./dist/components/ui/TextArea/TextArea.d.ts"
     },
     "./tooltip": {
-      "import": "./src/components/ui/Tooltip/Tooltip.tsx",
-      "types": "./src/components/ui/Tooltip/Tooltip.types.tsx"
+      "import": "./dist/tooltip.js",
+      "types": "./dist/components/ui/Tooltip/Tooltip.d.ts"
     },
-    "./athena.css": "./src/index.css"
+    "./css": "./src/index.css"
   }
 }
