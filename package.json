@@ -162,6 +162,6 @@
       "import": "./dist/tooltip.js",
       "types": "./dist/components/ui/Tooltip/Tooltip.d.ts"
     },
-    "./css": "./src/index.css"
+    "./athena.css": "./src/index.css"
   }
 }
